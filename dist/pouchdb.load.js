@@ -3079,6 +3079,10 @@ function xhRequest(options, callback) {
     }
   }
 
+  if( options.onprogress ){
+  	xhr.onprogress = options.onprogress;
+  }
+  
   if (options.timeout > 0) {
     timer = setTimeout(abortReq, options.timeout);
     xhr.onprogress = function () {
