@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nolanlawson/pouchdb-load.git"
+    "url": "git://github.com/finchen/pouchdb-load.git"
   },
   "keywords": [
     "pouch",
